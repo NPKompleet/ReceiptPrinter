@@ -1,10 +1,10 @@
 package com.npkompleet.model;
 
-public class Tax {
+public class Cost {
 
     private Item item;
 
-    public Tax(Item item) {
+    public Cost(Item item) {
         this.item = item;
     }
 
