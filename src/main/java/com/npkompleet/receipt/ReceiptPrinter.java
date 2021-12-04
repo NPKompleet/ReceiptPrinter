@@ -14,8 +14,6 @@ public class ReceiptPrinter {
 	private static final Logger LOGGER = LoggerFactory.getLogger(ReceiptPrinter.class);
 
 	public static void main(String[] args) {
-		// TODO Create Tax class
-		// TODO Create Item class
 
 		for (String arg : args) {
 			try (FileInputStream fstream = new FileInputStream(arg);
