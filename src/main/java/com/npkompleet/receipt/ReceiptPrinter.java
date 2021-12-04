@@ -34,7 +34,6 @@ public class ReceiptPrinter {
 			}
 		}
 
-		// TODO Create input parser
 	}
 
 }

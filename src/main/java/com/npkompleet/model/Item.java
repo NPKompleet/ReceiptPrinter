@@ -8,7 +8,7 @@ public class Item {
     private int quantity;
     private float amount;
     private boolean isImported;
-    private boolean isSalesTaxExempt;
+    private boolean isBasicTaxExempt;
 
     public Item() {
     }
@@ -45,12 +45,12 @@ public class Item {
         this.isImported = isImported;
     }
 
-    public boolean isSalesTaxExempt() {
-        return isSalesTaxExempt;
+    public boolean isBasicTaxExempt() {
+        return isBasicTaxExempt;
     }
 
-    public void setSalesTaxExempt(boolean isSalesTaxExempt) {
-        this.isSalesTaxExempt = isSalesTaxExempt;
+    public void setBasicTaxExempt(boolean isSalesTaxExempt) {
+        this.isBasicTaxExempt = isSalesTaxExempt;
     }
 
 }
