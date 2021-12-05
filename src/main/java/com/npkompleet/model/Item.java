@@ -49,8 +49,8 @@ public class Item {
         return isBasicTaxExempt;
     }
 
-    public void setBasicTaxExempt(boolean isSalesTaxExempt) {
-        this.isBasicTaxExempt = isSalesTaxExempt;
+    public void setBasicTaxExempt(boolean isBasicTaxExempt) {
+        this.isBasicTaxExempt = isBasicTaxExempt;
     }
 
 }
