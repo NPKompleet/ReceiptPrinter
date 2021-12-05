@@ -9,3 +9,15 @@ This program calculates the sales tax on some items purchased and prints a recei
 3. The cost of each item will always appear last in the input line and it must be a number.
 4. The quantity of the item will always appear first in the input line and it must be a number.
 5. The names of the sales tax exempted items are: book, food, pill, and chocolate. Only these 4 names wil be considered in this context.
+
+## Running the Application
+
+Clone the repo and run the following commands:
+
+```
+cd <project folder>
+mvn clean install
+mvn exec:java -Dexec.args="input_1 input_2 input_3"
+```
+
+This should run the application with the 3 input files in the project and generate the output.
