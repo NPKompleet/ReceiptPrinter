@@ -18,6 +18,13 @@ public class InputParserTest {
         assertEquals(1, item.getQuantity());
         assertEquals(10.00, item.getAmount(), 0.02);
         assertEquals("book", item.getName());
+
+        Item item1 = InputParser.parseItem("7 kilogram of medical herbs at 99.99");
+        assertTrue(item1.isBasicTaxExempt());
+        assertFalse(item1.isImported());
+        assertEquals("kilogram of medical herbs", item1.getName());
+        assertEquals(7, item1.getQuantity());
+        assertEquals(99.99f, item1.getAmount());
     }
 
     @Test
